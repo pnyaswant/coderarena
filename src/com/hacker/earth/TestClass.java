@@ -1,4 +1,4 @@
-package com.hacker.rank;
+package com.hacker.earth;
 
 /* IMPORTANT: Multiple classes and nested static classes are supported */
 

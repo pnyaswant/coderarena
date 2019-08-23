@@ -1,4 +1,4 @@
-package com.hacker.rank;
+package com.hacker.earth;
 
 import java.util.ArrayList;
 import java.util.Collections;

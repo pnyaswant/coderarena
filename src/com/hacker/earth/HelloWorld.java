@@ -1,4 +1,4 @@
-package com.hacker.rank;
+package com.hacker.earth;
 
 public class HelloWorld {
 	
