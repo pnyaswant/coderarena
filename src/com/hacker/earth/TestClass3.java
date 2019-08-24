@@ -13,7 +13,7 @@ import java.util.*;
 
 // Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
 
-class TestClass2 {
+class TestClass3 {
 	public static void main(String args[]) throws Exception {
 		// Scanner
 		Scanner s = new Scanner(System.in);
