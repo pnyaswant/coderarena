@@ -13,7 +13,7 @@ import java.util.*;
 
 // Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
 
-class TestClass {
+class TestClass2 {
 	public static void main(String args[]) throws Exception {
 		// Scanner
 		Scanner s = new Scanner(System.in);
@@ -52,19 +52,4 @@ class TestClass {
 
 	}
 
-	static void back(int a, int b, int c, int d, Set<String> result, String temp) {
-		if (a == 0 && b == 0 && c == 0 && d == 0) {
-			result.add(temp);
-			return;
-		}
-		if (a > 0 && (temp.length() > 0 && temp.charAt(temp.length() - 1) != 'a' || temp.length() == 0))
-			back(a - 1, b, c, d, result, temp + "a");
-		if (b > 0 && (temp.length() > 0 && temp.charAt(temp.length() - 1) != 'b' || temp.length() == 0))
-			back(a, b - 1, c, d, result, temp + "b");
-		if (c > 0 && (temp.length() > 0 && temp.charAt(temp.length() - 1) != 'c' || temp.length() == 0))
-			back(a, b, c - 1, d, result, temp + "c");
-		if (d > 0 && (temp.length() > 0 && temp.charAt(temp.length() - 1) != 'd' || temp.length() == 0))
-			back(a, b, c, d - 1, result, temp + "d");
-
-	}
 }
